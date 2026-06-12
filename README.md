@@ -35,14 +35,6 @@
 
 ---
 
-## 📸 Preview
-
-<p align="center">
-<img width="900" src="https://via.placeholder.com/1000x500/0f172a/38bdf8?text=Full-Stack+Product+Engine">
-</p>
-
----
-
 ## 🧠 Concepts Used
 
 <table>
@@ -86,29 +78,6 @@
 ```
 
 ---
-
-# ⚙️ Workflow
-
-```mermaid
-flowchart TD
-
-A[Load Inventory] --> B[Display Products]
-
-B --> C[Filter Premium Products]
-
-B --> D[Add To Cart]
-
-D --> E[Save Cart In Local Storage]
-
-E --> F[Update Cart UI]
-
-F --> G[Calculate Total Price]
-
-G --> H[Clear Cart]
-```
-
----
-
 ## 🛠 Tech Stack
 
 <p align="center">
@@ -169,6 +138,6 @@ index.html
 
 ### ⭐ If you like this project, give it a star!
 
-Made with ❤️ by **Jahnvi Srivastava**
+Made by **Jahnvi Srivastava**
 
 </div>
