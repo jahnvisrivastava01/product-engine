@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Dev Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="store-container">
+        <header>
+            <h1>🛒 Full-Stack Product Engine</h1>
+            <p>Process, pipeline, and cache active store data streams</p>
+        </header>
+
+        <div class="filter-bar">
+            <button id="loadBtn">⚡ Load Live Inventory</button>
+            <button id="filterBtn">🔍 Show Premium Only (> ₹500)</button>
+        </div>
+
+        <div class="store-grid">
+            <section class="panel">
+                <h3>📦 Store Inventory Marketplace</h3>
+                <div id="productGrid" class="grid-layout">
+                    <p class="status-text">Click "Load Live Inventory" to initiate network stream...</p>
+                </div>
+            </section>
+
+            <section class="panel summary-panel">
+                <h3>🛍️ Active Cart Session</h3>
+                <div id="cartItems">
+                    </div>
+                <hr>
+                <div class="cart-total">
+                    <span>Total Valuation:</span>
+                    <strong id="totalPrice">₹0</strong>
+                </div>
+                <button id="clearCartBtn">🗑️ Clear Cached Cart</button>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
